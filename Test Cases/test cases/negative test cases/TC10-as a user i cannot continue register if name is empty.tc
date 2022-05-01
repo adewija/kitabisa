@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10-as a user i cannot continue register if name is empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a76423f-c8fa-4938-a70f-270be02680fb</testCaseGuid>
+   <variable>
+      <defaultValue>'test@test1.com'</defaultValue>
+      <description></description>
+      <id>c4278037-f3c9-4b40-8055-b58519d2ad51</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'testName'</defaultValue>
+      <description></description>
+      <id>dd958c62-f192-4c49-8aef-b28f4f9250ab</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>71cb9072-ad44-4202-9f84-d0d94809f450</id>
+      <masked>false</masked>
+      <name>isRegister</name>
+   </variable>
+   <variable>
+      <defaultValue>'empty mandatory fields'</defaultValue>
+      <description></description>
+      <id>91ad24c1-3e5f-40c4-bcf8-8f26c6d29dfa</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+</TestCaseEntity>

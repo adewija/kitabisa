@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+user register positive cases,Chrome 100.0.4896.127,,,2022-04-30 13:03:22,2022-04-30 13:05:00,1m - 37.904s,PASSED
+,,,,,,,
+Test Cases/test cases/positive test cases/TC05-as a user i can go to login page if already have account,Chrome 100.0.4896.127,,,2022-04-30 13:03:29,2022-04-30 13:03:37,8.355s,PASSED
+Start setup action : setupTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:03:29,2022-04-30 13:03:29,0.003s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:03:29,2022-04-30 13:03:29,0.002s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""isLogin"":isLogin], STOP_ON_FAILURE)",Chrome 100.0.4896.127,input email and name with valid value,,2022-04-30 13:03:29,2022-04-30 13:03:36,6.444s,PASSED
+scenario.each({ java.lang.Object value -> ... }),Chrome 100.0.4896.127,verify user redirected to login page,,2022-04-30 13:03:36,2022-04-30 13:03:37,1.031s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:03:37,2022-04-30 13:03:37,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:03:37,2022-04-30 13:03:37,0.555s,PASSED
+,,,,,,,
+Test Cases/test cases/positive test cases/TC02-as a user i can register with apple id,Chrome 100.0.4896.127,,,2022-04-30 13:03:37,2022-04-30 13:03:43,5.586s,PASSED
+Start setup action : setupTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:03:37,2022-04-30 13:03:37,0.002s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:03:38,2022-04-30 13:03:38,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""accountType"":accountType], STOP_ON_FAILURE)",Chrome 100.0.4896.127,click button register with apple id,,2022-04-30 13:03:38,2022-04-30 13:03:42,4.826s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario, ""expectedURL"":expectedURL], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify user redirected to apple id login page,,2022-04-30 13:03:42,2022-04-30 13:03:42,0.095s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:03:42,2022-04-30 13:03:42,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:03:42,2022-04-30 13:03:43,0.437s,PASSED
+,,,,,,,
+Test Cases/test cases/positive test cases/TC04-as a user i can register with facebook,Chrome 100.0.4896.127,,,2022-04-30 13:03:43,2022-04-30 13:03:49,5.720s,PASSED
+Start setup action : setupTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:03:43,2022-04-30 13:03:43,0.001s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:03:43,2022-04-30 13:03:43,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""accountType"":accountType], STOP_ON_FAILURE)",Chrome 100.0.4896.127,click button register with facebook,,2022-04-30 13:03:43,2022-04-30 13:03:48,4.940s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario, ""expectedURL"":expectedURL], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify user redirected to facebook,,2022-04-30 13:03:48,2022-04-30 13:03:48,0.085s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:03:48,2022-04-30 13:03:48,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:03:48,2022-04-30 13:03:49,0.524s,PASSED
+,,,,,,,
+Test Cases/test cases/positive test cases/TC03-as a user i can register with google,Chrome 100.0.4896.127,,,2022-04-30 13:03:49,2022-04-30 13:03:55,5.895s,PASSED
+Start setup action : setupTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:03:49,2022-04-30 13:03:49,0.000s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:03:49,2022-04-30 13:03:49,0.000s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""accountType"":accountType], STOP_ON_FAILURE)",Chrome 100.0.4896.127,click button register with google,,2022-04-30 13:03:49,2022-04-30 13:03:54,5.047s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario, ""expectedURL"":expectedURL], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify user redirected to google login page,,2022-04-30 13:03:54,2022-04-30 13:03:54,0.092s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:03:54,2022-04-30 13:03:54,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:03:54,2022-04-30 13:03:55,0.581s,PASSED
+,,,,,,,
+Test Cases/test cases/positive test cases/TC06-as a user i can go to terms and condition page,Chrome 100.0.4896.127,,,2022-04-30 13:03:55,2022-04-30 13:04:04,9.031s,PASSED
+Start setup action : setupTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:03:55,2022-04-30 13:03:55,0.001s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:03:55,2022-04-30 13:03:55,0.000s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""openTnC"":openTnC], STOP_ON_FAILURE)",Chrome 100.0.4896.127,click terms n condition link,,2022-04-30 13:03:55,2022-04-30 13:04:00,4.892s,PASSED
+switchToWindowIndex(1),Chrome 100.0.4896.127,,,2022-04-30 13:04:00,2022-04-30 13:04:00,0.023s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario, ""expectedURL"":expectedURL], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify user redirected to terms n condition page,,2022-04-30 13:04:00,2022-04-30 13:04:00,0.094s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:04:00,2022-04-30 13:04:00,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:04:00,2022-04-30 13:04:04,3.834s,PASSED
+,,,,,,,
+Test Cases/test cases/positive test cases/TC01-as a user i can register with valid email and name,Chrome 100.0.4896.127,,,2022-04-30 13:04:04,2022-04-30 13:04:18,14.367s,PASSED
+Start setup action : setupTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:04:04,2022-04-30 13:04:04,0.001s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:04:04,2022-04-30 13:04:04,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""email"":email, ""name"":name, ""isRegister"":isRegister], STOP_ON_FAILURE)",Chrome 100.0.4896.127,input email and name with valid value,,2022-04-30 13:04:04,2022-04-30 13:04:11,7.580s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify user redirected to otp page right after click register,,2022-04-30 13:04:11,2022-04-30 13:04:17,5.897s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:04:17,2022-04-30 13:04:17,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:04:17,2022-04-30 13:04:18,0.682s,PASSED
+,,,,,,,
+Test Cases/test cases/positive test cases/TC06-as a user i can go to terms and condition page,Chrome 100.0.4896.127,,,2022-04-30 13:04:18,2022-04-30 13:04:35,17.441s,PASSED
+Start setup action : setupTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:04:18,2022-04-30 13:04:18,0.002s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:04:18,2022-04-30 13:04:18,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""openTnC"":openTnC], STOP_ON_FAILURE)",Chrome 100.0.4896.127,click terms n condition link,,2022-04-30 13:04:18,2022-04-30 13:04:31,12.766s,PASSED
+switchToWindowIndex(1),Chrome 100.0.4896.127,,,2022-04-30 13:04:31,2022-04-30 13:04:31,0.012s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario, ""expectedURL"":expectedURL], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify user redirected to terms n condition page,,2022-04-30 13:04:31,2022-04-30 13:04:31,0.095s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:04:31,2022-04-30 13:04:31,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:04:31,2022-04-30 13:04:35,4.512s,PASSED
+,,,,,,,
+Test Cases/test cases/positive test cases/TC07-as a user i can edit my email before click register,Chrome 100.0.4896.127,,,2022-04-30 13:04:35,2022-04-30 13:04:49,13.694s,PASSED
+Start setup action : setupTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:04:35,2022-04-30 13:04:35,0.001s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:04:36,2022-04-30 13:04:36,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""email"":email, ""isEdit"":isEdit, ""newEmail"":newEmail, ""name"":name, ""isRegister"":isRegister], STOP_ON_FAILURE)",Chrome 100.0.4896.127,input email and name with valid value,,2022-04-30 13:04:36,2022-04-30 13:04:44,8.061s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify user redirected to otp page right after click register,,2022-04-30 13:04:44,2022-04-30 13:04:49,5.074s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:04:49,2022-04-30 13:04:49,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:04:49,2022-04-30 13:04:49,0.330s,PASSED
+,,,,,,,
+Test Cases/test cases/positive test cases/TC08-as an existing user i will get pop up option to continue login as existing user,Chrome 100.0.4896.127,,,2022-04-30 13:04:49,2022-04-30 13:05:00,10.583s,PASSED
+Start setup action : setupTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:04:49,2022-04-30 13:04:49,0.001s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:04:49,2022-04-30 13:04:49,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""email"":email, ""name"":name, ""isRegister"":isRegister], STOP_ON_FAILURE)",Chrome 100.0.4896.127,input email and name using registered email,,2022-04-30 13:04:49,2022-04-30 13:04:57,7.409s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify pop up option to login as existing user appears,,2022-04-30 13:04:57,2022-04-30 13:04:59,2.554s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:04:59,2022-04-30 13:04:59,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 100.0.4896.127,,,2022-04-30 13:04:59,2022-04-30 13:05:00,0.376s,PASSED

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>register new user account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c560cead-ffa3-428b-9ff1-a5ab0752af4f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6ba2a167-688b-42f3-929c-9a1190f863b1</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>672f7874-2f95-4097-9bfc-e539de2ccd2b</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>dd7fdeed-7771-4b48-b7ae-6bcb759ee501</id>
+      <masked>false</masked>
+      <name>isRegister</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e74776ba-0073-41f6-b102-ea38816a8d1e</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>976fd496-7126-4f6f-9064-ab78de494ece</id>
+      <masked>false</masked>
+      <name>isEdit</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>907cee2e-401d-4965-8747-6968ba9fb20e</id>
+      <masked>false</masked>
+      <name>isLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>fbc0ce61-f4f2-4d44-b61b-cc14962aaff3</id>
+      <masked>false</masked>
+      <name>openTnC</name>
+   </variable>
+</TestCaseEntity>

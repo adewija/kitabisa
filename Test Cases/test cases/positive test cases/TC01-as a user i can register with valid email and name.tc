@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01-as a user i can register with valid email and name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01e3a460-cd2b-4b67-8ccc-140b2a439c2b</testCaseGuid>
+   <variable>
+      <defaultValue>'test@test1.com'</defaultValue>
+      <description></description>
+      <id>a442a697-c809-4766-9536-9450b73ebf3e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'testName'</defaultValue>
+      <description></description>
+      <id>3abee2e1-e1f5-4c23-964f-f70f604cb13c</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>90593472-3f0f-473e-9854-4c3d1b65d783</id>
+      <masked>false</masked>
+      <name>isRegister</name>
+   </variable>
+   <variable>
+      <defaultValue>'normal flow'</defaultValue>
+      <description></description>
+      <id>cbd27288-2da6-4cef-b79e-6202f3fbe457</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+</TestCaseEntity>

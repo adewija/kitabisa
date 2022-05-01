@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>assertion register page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2c516c6-aa21-4634-aff5-1742a8c6f4c9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5d88431e-68e5-47d9-9946-cbaca5999927</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7b8eb81e-f418-4388-a4d5-f0f0d3ca98e5</id>
+      <masked>false</masked>
+      <name>errMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>ef7d7373-3137-4ace-9bf5-dd10c8d11d5f</id>
+      <masked>false</masked>
+      <name>isLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5955222d-e5f6-459a-a8ac-9e13862e8cfc</id>
+      <masked>false</masked>
+      <name>expectedURL</name>
+   </variable>
+</TestCaseEntity>

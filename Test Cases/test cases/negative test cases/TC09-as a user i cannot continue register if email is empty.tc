@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09-as a user i cannot continue register if email is empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4de6e6d5-b39f-4919-a757-61aa1e3936c1</testCaseGuid>
+   <variable>
+      <defaultValue>'test@test1.com'</defaultValue>
+      <description></description>
+      <id>1fce8c48-8fe8-4e94-8102-b06479eb1ea7</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'testName'</defaultValue>
+      <description></description>
+      <id>918c5454-0a3d-4186-bce2-23735eb3fcfe</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>a0173458-28e7-474c-8bca-c4a06bd13fc8</id>
+      <masked>false</masked>
+      <name>isRegister</name>
+   </variable>
+   <variable>
+      <defaultValue>'empty mandatory fields'</defaultValue>
+      <description></description>
+      <id>a865edfd-8c68-49c6-8395-331c21ac96f9</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+</TestCaseEntity>

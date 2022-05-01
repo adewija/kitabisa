@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07-as a user i can edit my email before click register</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f148b544-2237-4fa4-a286-6c2b3cfcf9bb</testCaseGuid>
+   <variable>
+      <defaultValue>'test@test1.com'</defaultValue>
+      <description></description>
+      <id>74edab18-9341-45ed-8cfb-f8a6933c979f</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'testName'</defaultValue>
+      <description></description>
+      <id>6b4bf4f9-4054-45c4-b0de-dddbb392d017</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>dd415ee9-4dd6-43c1-bd84-ba38db807a03</id>
+      <masked>false</masked>
+      <name>isRegister</name>
+   </variable>
+   <variable>
+      <defaultValue>'normal flow'</defaultValue>
+      <description></description>
+      <id>e1c8b5bd-8f42-4a91-99b7-0d79913515c2</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>'test1@test1.com'</defaultValue>
+      <description></description>
+      <id>d8ca9d4c-9f50-4bc7-9e76-f29b86b596b0</id>
+      <masked>false</masked>
+      <name>newEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>b974bd11-8bcf-4e47-acce-f4011ded1bf6</id>
+      <masked>false</masked>
+      <name>isEdit</name>
+   </variable>
+</TestCaseEntity>

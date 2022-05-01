@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+user register negative test cases,Chrome 100.0.4896.127,,,2022-04-30 13:11:57,2022-04-30 13:12:58,1m - 1.489s,PASSED
+,,,,,,,
+Test Cases/test cases/negative test cases/TC10-as a user i cannot continue register if name is empty,Chrome 100.0.4896.127,,,2022-04-30 13:11:57,2022-04-30 13:12:10,13.093s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:11:58,2022-04-30 13:12:04,6.748s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""email"":email], STOP_ON_FAILURE)",Chrome 100.0.4896.127,input name only,,2022-04-30 13:12:04,2022-04-30 13:12:09,4.919s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify button register is disabled,,2022-04-30 13:12:09,2022-04-30 13:12:10,0.857s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:12:10,2022-04-30 13:12:10,0.189s,PASSED
+,,,,,,,
+Test Cases/test cases/negative test cases/TC13-as a user i cannot register with invalid name format,Chrome 100.0.4896.127,,,2022-04-30 13:12:10,2022-04-30 13:12:20,9.785s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:12:11,2022-04-30 13:12:14,3.631s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""email"":email, ""name"":name], STOP_ON_FAILURE)",Chrome 100.0.4896.127,input name contains symbols,,2022-04-30 13:12:14,2022-04-30 13:12:19,5.086s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify inline error message appears,,2022-04-30 13:12:19,2022-04-30 13:12:20,0.604s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:12:20,2022-04-30 13:12:20,0.203s,PASSED
+,,,,,,,
+Test Cases/test cases/negative test cases/TC12-as a user i cannot input name more than 70 char,Chrome 100.0.4896.127,,,2022-04-30 13:12:20,2022-04-30 13:12:31,10.673s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:12:20,2022-04-30 13:12:25,4.606s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""email"":email, ""name"":name], STOP_ON_FAILURE)",Chrome 100.0.4896.127,input name more than 70 char,,2022-04-30 13:12:25,2022-04-30 13:12:30,5.105s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify inline error message appears,,2022-04-30 13:12:30,2022-04-30 13:12:31,0.562s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:12:31,2022-04-30 13:12:31,0.197s,PASSED
+,,,,,,,
+Test Cases/test cases/negative test cases/TC09-as a user i cannot continue register if email is empty,Chrome 100.0.4896.127,,,2022-04-30 13:12:31,2022-04-30 13:12:41,10.298s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:12:31,2022-04-30 13:12:35,4.442s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""name"":name], STOP_ON_FAILURE)",Chrome 100.0.4896.127,input name only,,2022-04-30 13:12:35,2022-04-30 13:12:41,5.175s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify button register is disabled,,2022-04-30 13:12:41,2022-04-30 13:12:41,0.373s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:12:41,2022-04-30 13:12:41,0.148s,PASSED
+,,,,,,,
+Test Cases/test cases/negative test cases/TC11-as a user i cannot register with invalid email format,Chrome 100.0.4896.127,,,2022-04-30 13:12:41,2022-04-30 13:12:58,17.384s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:12:41,2022-04-30 13:12:47,6.141s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/register new user account""), [""email"":email, ""name"":name], STOP_ON_FAILURE)",Chrome 100.0.4896.127,input name only,,2022-04-30 13:12:47,2022-04-30 13:12:58,10.411s,PASSED
+"callTestCase(findTestCase(""Test Cases/pages/assertion register page""), [""scenario"":scenario], STOP_ON_FAILURE)",Chrome 100.0.4896.127,verify inline error message appears,,2022-04-30 13:12:58,2022-04-30 13:12:58,0.462s,PASSED
+if (individualRun),Chrome 100.0.4896.127,,,2022-04-30 13:12:58,2022-04-30 13:12:58,0.158s,PASSED

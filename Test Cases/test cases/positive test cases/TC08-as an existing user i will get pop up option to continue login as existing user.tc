@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08-as an existing user i will get pop up option to continue login as existing user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62e93ba4-4a07-4370-9a2f-2813619cb5f8</testCaseGuid>
+   <variable>
+      <defaultValue>'test@test.com'</defaultValue>
+      <description></description>
+      <id>605234dc-d3c4-492f-be46-7f412ee8aff9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'testName'</defaultValue>
+      <description></description>
+      <id>6eb7b56f-e5b5-4168-ad41-caab59b795b2</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>0e7e5cb2-a47c-445d-9ad4-5995132da96f</id>
+      <masked>false</masked>
+      <name>isRegister</name>
+   </variable>
+   <variable>
+      <defaultValue>'verify existing user'</defaultValue>
+      <description></description>
+      <id>6df22dc5-e8b9-48b9-a327-7a08a6021af3</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+</TestCaseEntity>

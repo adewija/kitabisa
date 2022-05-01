@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>header_title_dynamic</name>
+   <tag></tag>
+   <elementGuidId>64c80c05-0bcb-48ed-a8c5-b8406b3cb0ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//header//*[contains(text(),'${value}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//header//*[contains(text(),'${value}')]</value>
+   </webElementProperties>
+</WebElementEntity>

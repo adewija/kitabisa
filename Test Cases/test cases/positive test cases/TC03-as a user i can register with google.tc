@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03-as a user i can register with google</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8ee02f8-06b1-47fc-8a07-09f27a3f7d64</testCaseGuid>
+   <variable>
+      <defaultValue>'verify URL redirection page'</defaultValue>
+      <description></description>
+      <id>05309b21-330d-48ef-93ef-ea94dae40384</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>'google'</defaultValue>
+      <description></description>
+      <id>a71d5111-0ec7-47e1-a851-1ff37313eef1</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://accounts.google.com/'</defaultValue>
+      <description></description>
+      <id>00fdbd68-be27-4d1e-84ac-466c9a34825b</id>
+      <masked>false</masked>
+      <name>expectedURL</name>
+   </variable>
+</TestCaseEntity>

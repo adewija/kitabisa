@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>click button register with account dynamic</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4f72303-b914-499b-8b6e-ce31494f49b9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d27d7362-ef56-4e6d-bf0b-e6a3b806132e</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+</TestCaseEntity>

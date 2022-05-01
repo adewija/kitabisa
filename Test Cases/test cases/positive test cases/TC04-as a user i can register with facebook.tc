@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04-as a user i can register with facebook</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edaf59c9-45d4-4f05-8397-bb500b54d777</testCaseGuid>
+   <variable>
+      <defaultValue>'verify URL redirection page'</defaultValue>
+      <description></description>
+      <id>59e29ca5-472a-4d13-b33d-f2d352e7c18e</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>'facebook'</defaultValue>
+      <description></description>
+      <id>2ba16e85-b9e3-46c3-afe2-0b53c1a0fd2e</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.facebook.com/'</defaultValue>
+      <description></description>
+      <id>8209cbf4-5116-4f0f-90c3-bf0a4921e0ab</id>
+      <masked>false</masked>
+      <name>expectedURL</name>
+   </variable>
+</TestCaseEntity>

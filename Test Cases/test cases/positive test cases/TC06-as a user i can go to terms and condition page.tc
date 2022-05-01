@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06-as a user i can go to terms and condition page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9786d338-900c-4ce5-aef0-635012cdacf2</testCaseGuid>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>aa9d0cbe-c2e3-4ca7-afc3-bc8339930d37</id>
+      <masked>false</masked>
+      <name>openTnC</name>
+   </variable>
+   <variable>
+      <defaultValue>'verify URL redirection page'</defaultValue>
+      <description></description>
+      <id>afdce26a-a5fc-4e87-b676-cc7f9b695e0d</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://kitabisa.zendesk.com/'</defaultValue>
+      <description></description>
+      <id>c004706b-e1ac-4f34-87a9-c14472368bde</id>
+      <masked>false</masked>
+      <name>expectedURL</name>
+   </variable>
+</TestCaseEntity>

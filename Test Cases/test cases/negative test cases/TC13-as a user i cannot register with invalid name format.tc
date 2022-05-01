@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13-as a user i cannot register with invalid name format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8dab685c-86bf-4029-bfb6-6811d05ffb6f</testCaseGuid>
+   <variable>
+      <defaultValue>'test@test1.com'</defaultValue>
+      <description></description>
+      <id>60c9baf8-fa20-42a4-b2c9-a176ca3fac0f</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'@d3'</defaultValue>
+      <description></description>
+      <id>8b1dd52c-c5d5-4d04-9d1e-f53ad201cf90</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>3c0ef323-77fc-4053-b978-ed0700a66eb6</id>
+      <masked>false</masked>
+      <name>isRegister</name>
+   </variable>
+   <variable>
+      <defaultValue>'verify error message'</defaultValue>
+      <description></description>
+      <id>a0126907-4f4f-49db-9492-39ba6c3de99c</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nama lengkap hanya boleh huruf, titik (.) dan apostrof (\').'</defaultValue>
+      <description></description>
+      <id>eae4ef9d-38b2-4ce4-a207-b7aa2bea498f</id>
+      <masked>false</masked>
+      <name>errMessage</name>
+   </variable>
+</TestCaseEntity>

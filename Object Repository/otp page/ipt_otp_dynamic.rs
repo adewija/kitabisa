@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ipt_otp_dynamic</name>
+   <tag></tag>
+   <elementGuidId>6be8abf5-4e17-4a7a-b997-448664183294</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@data-testid=&quot;input-otp&quot;])[${index}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@data-testid=&quot;input-otp&quot;])[${index}]</value>
+   </webElementProperties>
+</WebElementEntity>

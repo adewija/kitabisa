@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="user register positive cases" time="90.79" tests="9" failures="0" errors="0">
+   <testsuite name="user register positive cases" tests="9" failures="0" errors="0" time="90.79" skipped="0" timestamp="2022-05-01 13:52:04" hostname="ade - 192.168.1.72" id="Test Suites/user register positive cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ade/kitabisa/Reports/20220501_135150/user register positive cases/20220501_135150"/>
+         <property name="logFiles" value="/Users/ade/kitabisa/Reports/20220501_135150/user register positive cases/20220501_135150/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ade - 192.168.1.72"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 100.0.4896.127"/>
+         <property name="hostAddress" value="192.168.1.72"/>
+         <property name="sessionId" value="5baf483f33ace9dc3bb989c1fec36dc3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/test cases/positive test cases/TC05-as a user i can go to login page if already have account" time="10.701" classname="Test Cases/test cases/positive test cases/TC05-as a user i can go to login page if already have account" status="PASSED">
+         <system-out><![CDATA[2022-05-01 13:52:12 - [TEST_CASE][PASSED] - Test Cases/test cases/positive test cases/TC05-as a user i can go to login page if already have account: Test Cases/test cases/positive test cases/TC05-as a user i can go to login page if already have account
+
+2022-05-01 13:52:13 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:13 - [TEST_STEP][PASSED] - individualRun = false: null
+
+2022-05-01 13:52:13 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:13 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:52:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/register new user account"), ["isLogin":isLogin], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:13 - [TEST_CASE][PASSED] - Test Cases/pages/register new user account: Test Cases/pages/register new user account
+
+2022-05-01 13:52:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/open browser and go to register page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:15 - [TEST_CASE][PASSED] - Test Cases/pages/open browser and go to register page: Test Cases/pages/open browser and go to register page
+
+2022-05-01 13:52:15 - [TEST_STEP][PASSED] - openBrowser(basicURL, STOP_ON_FAILURE): Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-01 13:52:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-01 13:52:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-01 13:52:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-01 13:52:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-01 13:52:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:19 - [TEST_STEP][PASSED] - if (email != ""): null
+
+2022-05-01 13:52:19 - [TEST_STEP][PASSED] - if (name != ""): null
+
+2022-05-01 13:52:19 - [TEST_STEP][PASSED] - if (isRegister): null
+
+2022-05-01 13:52:19 - [TEST_STEP][PASSED] - if (accountType != ""): null
+
+2022-05-01 13:52:19 - [TEST_STEP][PASSED] - if (isLogin): Call Test Case 'Test Cases/pages/click login link' successfully
+
+2022-05-01 13:52:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/click login link"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/click login link' successfully
+
+2022-05-01 13:52:19 - [TEST_CASE][PASSED] - Test Cases/pages/click login link: Test Cases/pages/click login link
+
+2022-05-01 13:52:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/register page/a_login_link"), STOP_ON_FAILURE): Object: 'Object Repository/register page/a_login_link' is clicked on
+
+2022-05-01 13:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/register page/a_login_link' is clicked on
+
+2022-05-01 13:52:20 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully
+
+2022-05-01 13:52:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-05-01 13:52:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/click login link' successfully
+
+2022-05-01 13:52:21 - [TEST_STEP][PASSED] - if (openTnC): null
+
+2022-05-01 13:52:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:21 - [TEST_STEP][PASSED] - scenario.each({ java.lang.Object value -> ... }): Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:21 - [TEST_CASE][PASSED] - Test Cases/pages/assertion register page: Test Cases/pages/assertion register page
+
+2022-05-01 13:52:22 - [TEST_STEP][PASSED] - switch (scenario.toLowerCase()): null
+
+2022-05-01 13:52:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:22 - [TEST_CASE][PASSED] - Test Cases/pages/assertion register page: Test Cases/pages/assertion register page
+
+2022-05-01 13:52:22 - [TEST_STEP][PASSED] - switch (scenario.toLowerCase()): null
+
+2022-05-01 13:52:22 - [TEST_STEP][PASSED] - case "verify header title":: null
+
+2022-05-01 13:52:22 - [TEST_STEP][PASSED] - (isLogin) ? com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/register page/header_title_dynamic, [value:Masuk]), com.kms.katalon.core.model.FailureHandling.STOP_ON_FAILURE) : com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/register page/header_title_dynamic, [value:Daftar]), com.kms.katalon.core.model.FailureHandling.STOP_ON_FAILURE): Object 'Object Repository/register page/header_title_dynamic' is visible
+
+2022-05-01 13:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/register page/header_title_dynamic' is visible
+
+2022-05-01 13:52:23 - [TEST_STEP][PASSED] - break: null
+
+2022-05-01 13:52:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:23 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:52:23 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2022-05-01 13:52:23 - [TEST_STEP][PASSED] - navigateToUrl(basicURL, STOP_ON_FAILURE): Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:52:23 - [MESSAGE][PASSED] - Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:52:23 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test cases/positive test cases/TC02-as a user i can register with apple id" time="5.628" classname="Test Cases/test cases/positive test cases/TC02-as a user i can register with apple id" status="PASSED">
+         <system-out><![CDATA[2022-05-01 13:52:23 - [TEST_CASE][PASSED] - Test Cases/test cases/positive test cases/TC02-as a user i can register with apple id: Test Cases/test cases/positive test cases/TC02-as a user i can register with apple id
+
+2022-05-01 13:52:23 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:23 - [TEST_STEP][PASSED] - individualRun = false: null
+
+2022-05-01 13:52:23 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:24 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:52:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/register new user account"), ["accountType":accountType], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:24 - [TEST_CASE][PASSED] - Test Cases/pages/register new user account: Test Cases/pages/register new user account
+
+2022-05-01 13:52:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/open browser and go to register page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:24 - [TEST_CASE][PASSED] - Test Cases/pages/open browser and go to register page: Test Cases/pages/open browser and go to register page
+
+2022-05-01 13:52:24 - [TEST_STEP][PASSED] - openBrowser(basicURL, STOP_ON_FAILURE): Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-01 13:52:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-01 13:52:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-01 13:52:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-01 13:52:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-01 13:52:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:27 - [TEST_STEP][PASSED] - if (email != ""): null
+
+2022-05-01 13:52:27 - [TEST_STEP][PASSED] - if (name != ""): null
+
+2022-05-01 13:52:27 - [TEST_STEP][PASSED] - if (isRegister): null
+
+2022-05-01 13:52:27 - [TEST_STEP][PASSED] - if (accountType != ""): Call Test Case 'Test Cases/pages/click button register with account dynamic' successfully
+
+2022-05-01 13:52:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/click button register with account dynamic"), ["accountType":accountType], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/click button register with account dynamic' successfully
+
+2022-05-01 13:52:27 - [TEST_CASE][PASSED] - Test Cases/pages/click button register with account dynamic: Test Cases/pages/click button register with account dynamic
+
+2022-05-01 13:52:28 - [TEST_STEP][PASSED] - click(findTestObject("register page/btn_register_with_account_dynamic", ["value":accountType]), STOP_ON_FAILURE): Object: 'Object Repository/register page/btn_register_with_account_dynamic' is clicked on
+
+2022-05-01 13:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/register page/btn_register_with_account_dynamic' is clicked on
+
+2022-05-01 13:52:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/click button register with account dynamic' successfully
+
+2022-05-01 13:52:28 - [TEST_STEP][PASSED] - if (isLogin): null
+
+2022-05-01 13:52:28 - [TEST_STEP][PASSED] - if (openTnC): null
+
+2022-05-01 13:52:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/assertion register page"), ["scenario":scenario, "expectedURL":expectedURL], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:28 - [TEST_CASE][PASSED] - Test Cases/pages/assertion register page: Test Cases/pages/assertion register page
+
+2022-05-01 13:52:28 - [TEST_STEP][PASSED] - switch (scenario.toLowerCase()): null
+
+2022-05-01 13:52:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:28 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:52:28 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2022-05-01 13:52:28 - [TEST_STEP][PASSED] - navigateToUrl(basicURL, STOP_ON_FAILURE): Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:52:29 - [MESSAGE][PASSED] - Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:52:29 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test cases/positive test cases/TC04-as a user i can register with facebook" time="6.002" classname="Test Cases/test cases/positive test cases/TC04-as a user i can register with facebook" status="PASSED">
+         <system-out><![CDATA[2022-05-01 13:52:29 - [TEST_CASE][PASSED] - Test Cases/test cases/positive test cases/TC04-as a user i can register with facebook: Test Cases/test cases/positive test cases/TC04-as a user i can register with facebook
+
+2022-05-01 13:52:29 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:29 - [TEST_STEP][PASSED] - individualRun = false: null
+
+2022-05-01 13:52:29 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:30 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:52:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/register new user account"), ["accountType":accountType], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:30 - [TEST_CASE][PASSED] - Test Cases/pages/register new user account: Test Cases/pages/register new user account
+
+2022-05-01 13:52:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/open browser and go to register page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:30 - [TEST_CASE][PASSED] - Test Cases/pages/open browser and go to register page: Test Cases/pages/open browser and go to register page
+
+2022-05-01 13:52:30 - [TEST_STEP][PASSED] - openBrowser(basicURL, STOP_ON_FAILURE): Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-01 13:52:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-01 13:52:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-01 13:52:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-01 13:52:34 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-01 13:52:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - if (email != ""): null
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - if (name != ""): null
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - if (isRegister): null
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - if (accountType != ""): Call Test Case 'Test Cases/pages/click button register with account dynamic' successfully
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/click button register with account dynamic"), ["accountType":accountType], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/click button register with account dynamic' successfully
+
+2022-05-01 13:52:34 - [TEST_CASE][PASSED] - Test Cases/pages/click button register with account dynamic: Test Cases/pages/click button register with account dynamic
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - click(findTestObject("register page/btn_register_with_account_dynamic", ["value":accountType]), STOP_ON_FAILURE): Object: 'Object Repository/register page/btn_register_with_account_dynamic' is clicked on
+
+2022-05-01 13:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/register page/btn_register_with_account_dynamic' is clicked on
+
+2022-05-01 13:52:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/click button register with account dynamic' successfully
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - if (isLogin): null
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - if (openTnC): null
+
+2022-05-01 13:52:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/assertion register page"), ["scenario":scenario, "expectedURL":expectedURL], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:34 - [TEST_CASE][PASSED] - Test Cases/pages/assertion register page: Test Cases/pages/assertion register page
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - switch (scenario.toLowerCase()): null
+
+2022-05-01 13:52:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2022-05-01 13:52:34 - [TEST_STEP][PASSED] - navigateToUrl(basicURL, STOP_ON_FAILURE): Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:52:35 - [MESSAGE][PASSED] - Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:52:35 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test cases/positive test cases/TC03-as a user i can register with google" time="5.307" classname="Test Cases/test cases/positive test cases/TC03-as a user i can register with google" status="PASSED">
+         <system-out><![CDATA[2022-05-01 13:52:35 - [TEST_CASE][PASSED] - Test Cases/test cases/positive test cases/TC03-as a user i can register with google: Test Cases/test cases/positive test cases/TC03-as a user i can register with google
+
+2022-05-01 13:52:35 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:35 - [TEST_STEP][PASSED] - individualRun = false: null
+
+2022-05-01 13:52:35 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:35 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:52:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/register new user account"), ["accountType":accountType], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:35 - [TEST_CASE][PASSED] - Test Cases/pages/register new user account: Test Cases/pages/register new user account
+
+2022-05-01 13:52:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/open browser and go to register page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:35 - [TEST_CASE][PASSED] - Test Cases/pages/open browser and go to register page: Test Cases/pages/open browser and go to register page
+
+2022-05-01 13:52:35 - [TEST_STEP][PASSED] - openBrowser(basicURL, STOP_ON_FAILURE): Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-01 13:52:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-01 13:52:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-01 13:52:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-01 13:52:39 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-01 13:52:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - if (email != ""): null
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - if (name != ""): null
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - if (isRegister): null
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - if (accountType != ""): Call Test Case 'Test Cases/pages/click button register with account dynamic' successfully
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/click button register with account dynamic"), ["accountType":accountType], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/click button register with account dynamic' successfully
+
+2022-05-01 13:52:39 - [TEST_CASE][PASSED] - Test Cases/pages/click button register with account dynamic: Test Cases/pages/click button register with account dynamic
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - click(findTestObject("register page/btn_register_with_account_dynamic", ["value":accountType]), STOP_ON_FAILURE): Object: 'Object Repository/register page/btn_register_with_account_dynamic' is clicked on
+
+2022-05-01 13:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/register page/btn_register_with_account_dynamic' is clicked on
+
+2022-05-01 13:52:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/click button register with account dynamic' successfully
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - if (isLogin): null
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - if (openTnC): null
+
+2022-05-01 13:52:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/assertion register page"), ["scenario":scenario, "expectedURL":expectedURL], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:39 - [TEST_CASE][PASSED] - Test Cases/pages/assertion register page: Test Cases/pages/assertion register page
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - switch (scenario.toLowerCase()): null
+
+2022-05-01 13:52:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2022-05-01 13:52:39 - [TEST_STEP][PASSED] - navigateToUrl(basicURL, STOP_ON_FAILURE): Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:52:40 - [MESSAGE][PASSED] - Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:52:40 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test cases/positive test cases/TC06-as a user i can go to terms and condition page" time="9.733" classname="Test Cases/test cases/positive test cases/TC06-as a user i can go to terms and condition page" status="PASSED">
+         <system-out><![CDATA[2022-05-01 13:52:40 - [TEST_CASE][PASSED] - Test Cases/test cases/positive test cases/TC06-as a user i can go to terms and condition page: Test Cases/test cases/positive test cases/TC06-as a user i can go to terms and condition page
+
+2022-05-01 13:52:40 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:40 - [TEST_STEP][PASSED] - individualRun = false: null
+
+2022-05-01 13:52:40 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:41 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:52:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/register new user account"), ["openTnC":openTnC], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:41 - [TEST_CASE][PASSED] - Test Cases/pages/register new user account: Test Cases/pages/register new user account
+
+2022-05-01 13:52:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/open browser and go to register page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:41 - [TEST_CASE][PASSED] - Test Cases/pages/open browser and go to register page: Test Cases/pages/open browser and go to register page
+
+2022-05-01 13:52:41 - [TEST_STEP][PASSED] - openBrowser(basicURL, STOP_ON_FAILURE): Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-01 13:52:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-01 13:52:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-01 13:52:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-01 13:52:45 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-01 13:52:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:45 - [TEST_STEP][PASSED] - if (email != ""): null
+
+2022-05-01 13:52:45 - [TEST_STEP][PASSED] - if (name != ""): null
+
+2022-05-01 13:52:45 - [TEST_STEP][PASSED] - if (isRegister): null
+
+2022-05-01 13:52:45 - [TEST_STEP][PASSED] - if (accountType != ""): null
+
+2022-05-01 13:52:45 - [TEST_STEP][PASSED] - if (isLogin): null
+
+2022-05-01 13:52:45 - [TEST_STEP][PASSED] - if (openTnC): Call Test Case 'Test Cases/pages/open terms and condition' successfully
+
+2022-05-01 13:52:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/open terms and condition"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/open terms and condition' successfully
+
+2022-05-01 13:52:45 - [TEST_CASE][PASSED] - Test Cases/pages/open terms and condition: Test Cases/pages/open terms and condition
+
+2022-05-01 13:52:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/register page/a_terms_condition"), STOP_ON_FAILURE): Object: 'Object Repository/register page/a_terms_condition' is clicked on
+
+2022-05-01 13:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/register page/a_terms_condition' is clicked on
+
+2022-05-01 13:52:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/open terms and condition' successfully
+
+2022-05-01 13:52:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:46 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-05-01 13:52:46 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-05-01 13:52:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/assertion register page"), ["scenario":scenario, "expectedURL":expectedURL], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:46 - [TEST_CASE][PASSED] - Test Cases/pages/assertion register page: Test Cases/pages/assertion register page
+
+2022-05-01 13:52:46 - [TEST_STEP][PASSED] - switch (scenario.toLowerCase()): null
+
+2022-05-01 13:52:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:46 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:52:46 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2022-05-01 13:52:46 - [TEST_STEP][PASSED] - navigateToUrl(basicURL, STOP_ON_FAILURE): Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:52:50 - [MESSAGE][PASSED] - Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:52:50 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test cases/positive test cases/TC01-as a user i can register with valid email and name" time="12.426" classname="Test Cases/test cases/positive test cases/TC01-as a user i can register with valid email and name" status="PASSED">
+         <system-out><![CDATA[2022-05-01 13:52:50 - [TEST_CASE][PASSED] - Test Cases/test cases/positive test cases/TC01-as a user i can register with valid email and name: Test Cases/test cases/positive test cases/TC01-as a user i can register with valid email and name
+
+2022-05-01 13:52:50 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:50 - [TEST_STEP][PASSED] - individualRun = false: null
+
+2022-05-01 13:52:50 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2022-05-01 13:52:51 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:52:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/register new user account"), ["email":email, "name":name, "isRegister":isRegister], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:51 - [TEST_CASE][PASSED] - Test Cases/pages/register new user account: Test Cases/pages/register new user account
+
+2022-05-01 13:52:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/open browser and go to register page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:51 - [TEST_CASE][PASSED] - Test Cases/pages/open browser and go to register page: Test Cases/pages/open browser and go to register page
+
+2022-05-01 13:52:51 - [TEST_STEP][PASSED] - openBrowser(basicURL, STOP_ON_FAILURE): Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-01 13:52:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-01 13:52:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-01 13:52:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:52:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-01 13:52:54 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-01 13:52:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:52:54 - [TEST_STEP][PASSED] - if (email != ""): null
+
+2022-05-01 13:52:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/input user email"), ["email":email], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/input user email' successfully
+
+2022-05-01 13:52:54 - [TEST_CASE][PASSED] - Test Cases/pages/input user email: Test Cases/pages/input user email
+
+2022-05-01 13:52:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/register page/ipt_email"), email, STOP_ON_FAILURE): Keys 'test@test1.com' sent to object: 'Object Repository/register page/ipt_email'
+
+2022-05-01 13:52:55 - [MESSAGE][PASSED] - Keys 'test@test1.com' sent to object: 'Object Repository/register page/ipt_email'
+
+2022-05-01 13:52:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/input user email' successfully
+
+2022-05-01 13:52:55 - [TEST_STEP][PASSED] - if (isEdit): null
+
+2022-05-01 13:52:55 - [TEST_STEP][PASSED] - if (name != ""): Call Test Case 'Test Cases/pages/input user name' successfully
+
+2022-05-01 13:52:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/input user name"), ["name":name], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/input user name' successfully
+
+2022-05-01 13:52:55 - [TEST_CASE][PASSED] - Test Cases/pages/input user name: Test Cases/pages/input user name
+
+2022-05-01 13:52:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/register page/ipt_name"), name, STOP_ON_FAILURE): Keys 'testName' sent to object: 'Object Repository/register page/ipt_name'
+
+2022-05-01 13:52:56 - [MESSAGE][PASSED] - Keys 'testName' sent to object: 'Object Repository/register page/ipt_name'
+
+2022-05-01 13:52:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/input user name' successfully
+
+2022-05-01 13:52:56 - [TEST_STEP][PASSED] - if (isRegister): Call Test Case 'Test Cases/pages/click button register' successfully
+
+2022-05-01 13:52:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/click button register"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/click button register' successfully
+
+2022-05-01 13:52:56 - [TEST_CASE][PASSED] - Test Cases/pages/click button register: Test Cases/pages/click button register
+
+2022-05-01 13:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/register page/btn_register"), STOP_ON_FAILURE): Object: 'Object Repository/register page/btn_register' is clicked on
+
+2022-05-01 13:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/register page/btn_register' is clicked on
+
+2022-05-01 13:52:57 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully
+
+2022-05-01 13:52:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-05-01 13:52:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/click button register' successfully
+
+2022-05-01 13:52:57 - [TEST_STEP][PASSED] - if (accountType != ""): null
+
+2022-05-01 13:52:57 - [TEST_STEP][PASSED] - if (isLogin): null
+
+2022-05-01 13:52:57 - [TEST_STEP][PASSED] - if (openTnC): null
+
+2022-05-01 13:52:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:52:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/assertion register page"), ["scenario":scenario], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:52:57 - [TEST_CASE][PASSED] - Test Cases/pages/assertion register page: Test Cases/pages/assertion register page
+
+2022-05-01 13:52:57 - [TEST_STEP][PASSED] - switch (scenario.toLowerCase()): null
+
+2022-05-01 13:52:57 - [TEST_STEP][PASSED] - case "normal flow":: null
+
+2022-05-01 13:52:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/div_counter_otp"), STOP_ON_FAILURE): Object 'Object Repository/otp page/div_counter_otp' is visible
+
+2022-05-01 13:52:58 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/div_counter_otp' is visible
+
+2022-05-01 13:52:58 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("register page/btn_contains_value_dynamic", ["value":"Verifikasi"]), "disabled", 0, STOP_ON_FAILURE): Object 'Object Repository/register page/btn_contains_value_dynamic' has attribute 'disabled'
+
+2022-05-01 13:52:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-01 13:52:59 - [MESSAGE][PASSED] - Object 'Object Repository/register page/btn_contains_value_dynamic' has attribute 'disabled'
+
+2022-05-01 13:52:59 - [TEST_STEP][PASSED] - for ([i = 1, i <= 6, (i++)]): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:52:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:52:59 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:52:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:01 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:01 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:02 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:02 - [TEST_STEP][PASSED] - break: null
+
+2022-05-01 13:53:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:53:02 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:53:02 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2022-05-01 13:53:02 - [TEST_STEP][PASSED] - navigateToUrl(basicURL, STOP_ON_FAILURE): Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:53:02 - [MESSAGE][PASSED] - Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:53:02 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test cases/positive test cases/TC06-as a user i can go to terms and condition page" time="8.443" classname="Test Cases/test cases/positive test cases/TC06-as a user i can go to terms and condition page" status="PASSED">
+         <system-out><![CDATA[2022-05-01 13:53:02 - [TEST_CASE][PASSED] - Test Cases/test cases/positive test cases/TC06-as a user i can go to terms and condition page: Test Cases/test cases/positive test cases/TC06-as a user i can go to terms and condition page
+
+2022-05-01 13:53:02 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2022-05-01 13:53:02 - [TEST_STEP][PASSED] - individualRun = false: null
+
+2022-05-01 13:53:02 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2022-05-01 13:53:02 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:53:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/register new user account"), ["openTnC":openTnC], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:53:02 - [TEST_CASE][PASSED] - Test Cases/pages/register new user account: Test Cases/pages/register new user account
+
+2022-05-01 13:53:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/open browser and go to register page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:53:03 - [TEST_CASE][PASSED] - Test Cases/pages/open browser and go to register page: Test Cases/pages/open browser and go to register page
+
+2022-05-01 13:53:03 - [TEST_STEP][PASSED] - openBrowser(basicURL, STOP_ON_FAILURE): Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:53:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-01 13:53:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-01 13:53:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-01 13:53:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:53:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-01 13:53:06 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-01 13:53:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:53:06 - [TEST_STEP][PASSED] - if (email != ""): null
+
+2022-05-01 13:53:06 - [TEST_STEP][PASSED] - if (name != ""): null
+
+2022-05-01 13:53:06 - [TEST_STEP][PASSED] - if (isRegister): null
+
+2022-05-01 13:53:06 - [TEST_STEP][PASSED] - if (accountType != ""): null
+
+2022-05-01 13:53:06 - [TEST_STEP][PASSED] - if (isLogin): null
+
+2022-05-01 13:53:06 - [TEST_STEP][PASSED] - if (openTnC): Call Test Case 'Test Cases/pages/open terms and condition' successfully
+
+2022-05-01 13:53:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/open terms and condition"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/open terms and condition' successfully
+
+2022-05-01 13:53:06 - [TEST_CASE][PASSED] - Test Cases/pages/open terms and condition: Test Cases/pages/open terms and condition
+
+2022-05-01 13:53:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/register page/a_terms_condition"), STOP_ON_FAILURE): Object: 'Object Repository/register page/a_terms_condition' is clicked on
+
+2022-05-01 13:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/register page/a_terms_condition' is clicked on
+
+2022-05-01 13:53:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/open terms and condition' successfully
+
+2022-05-01 13:53:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:53:07 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-05-01 13:53:07 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-05-01 13:53:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/assertion register page"), ["scenario":scenario, "expectedURL":expectedURL], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:53:07 - [TEST_CASE][PASSED] - Test Cases/pages/assertion register page: Test Cases/pages/assertion register page
+
+2022-05-01 13:53:07 - [TEST_STEP][PASSED] - switch (scenario.toLowerCase()): null
+
+2022-05-01 13:53:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:53:07 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:53:07 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2022-05-01 13:53:07 - [TEST_STEP][PASSED] - navigateToUrl(basicURL, STOP_ON_FAILURE): Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:53:11 - [MESSAGE][PASSED] - Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:53:11 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test cases/positive test cases/TC07-as a user i can edit my email before click register" time="14.026" classname="Test Cases/test cases/positive test cases/TC07-as a user i can edit my email before click register" status="PASSED">
+         <system-out><![CDATA[2022-05-01 13:53:11 - [TEST_CASE][PASSED] - Test Cases/test cases/positive test cases/TC07-as a user i can edit my email before click register: Test Cases/test cases/positive test cases/TC07-as a user i can edit my email before click register
+
+2022-05-01 13:53:11 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2022-05-01 13:53:11 - [TEST_STEP][PASSED] - individualRun = false: null
+
+2022-05-01 13:53:11 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2022-05-01 13:53:12 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:53:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/register new user account"), ["email":email, "isEdit":isEdit, "newEmail":newEmail, "name":name, "isRegister":isRegister], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:53:12 - [TEST_CASE][PASSED] - Test Cases/pages/register new user account: Test Cases/pages/register new user account
+
+2022-05-01 13:53:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/open browser and go to register page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:53:12 - [TEST_CASE][PASSED] - Test Cases/pages/open browser and go to register page: Test Cases/pages/open browser and go to register page
+
+2022-05-01 13:53:12 - [TEST_STEP][PASSED] - openBrowser(basicURL, STOP_ON_FAILURE): Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:53:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-01 13:53:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-01 13:53:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-01 13:53:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:53:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-01 13:53:16 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-01 13:53:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:53:16 - [TEST_STEP][PASSED] - if (email != ""): Call Test Case 'Test Cases/pages/input user email' successfully
+
+2022-05-01 13:53:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/input user email"), ["email":email], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/input user email' successfully
+
+2022-05-01 13:53:16 - [TEST_CASE][PASSED] - Test Cases/pages/input user email: Test Cases/pages/input user email
+
+2022-05-01 13:53:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/register page/ipt_email"), email, STOP_ON_FAILURE): Keys 'test@test1.com' sent to object: 'Object Repository/register page/ipt_email'
+
+2022-05-01 13:53:16 - [MESSAGE][PASSED] - Keys 'test@test1.com' sent to object: 'Object Repository/register page/ipt_email'
+
+2022-05-01 13:53:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/input user email' successfully
+
+2022-05-01 13:53:16 - [TEST_STEP][PASSED] - if (isEdit): Call Test Case 'Test Cases/pages/input user email' successfully
+
+2022-05-01 13:53:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/click button edit email"), ["oldEmail":email], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/click button edit email' successfully
+
+2022-05-01 13:53:16 - [TEST_CASE][PASSED] - Test Cases/pages/click button edit email: Test Cases/pages/click button edit email
+
+2022-05-01 13:53:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/register page/btn_edit_email"), STOP_ON_FAILURE): Object 'Object Repository/register page/btn_edit_email' is visible
+
+2022-05-01 13:53:17 - [MESSAGE][PASSED] - Object 'Object Repository/register page/btn_edit_email' is visible
+
+2022-05-01 13:53:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/register page/btn_edit_email"), STOP_ON_FAILURE): Object: 'Object Repository/register page/btn_edit_email' is clicked on
+
+2022-05-01 13:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/register page/btn_edit_email' is clicked on
+
+2022-05-01 13:53:17 - [TEST_STEP][PASSED] - verifyTextNotPresent(oldEmail, false, STOP_ON_FAILURE): Text 'test@test1.com' is not present on page
+
+2022-05-01 13:53:18 - [MESSAGE][PASSED] - Text 'test@test1.com' is not present on page
+
+2022-05-01 13:53:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/click button edit email' successfully
+
+2022-05-01 13:53:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/input user email"), ["email":newEmail], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/input user email' successfully
+
+2022-05-01 13:53:18 - [TEST_CASE][PASSED] - Test Cases/pages/input user email: Test Cases/pages/input user email
+
+2022-05-01 13:53:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/register page/ipt_email"), email, STOP_ON_FAILURE): Keys 'test1@test1.com' sent to object: 'Object Repository/register page/ipt_email'
+
+2022-05-01 13:53:19 - [MESSAGE][PASSED] - Keys 'test1@test1.com' sent to object: 'Object Repository/register page/ipt_email'
+
+2022-05-01 13:53:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/input user email' successfully
+
+2022-05-01 13:53:19 - [TEST_STEP][PASSED] - if (name != ""): Call Test Case 'Test Cases/pages/input user name' successfully
+
+2022-05-01 13:53:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/input user name"), ["name":name], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/input user name' successfully
+
+2022-05-01 13:53:19 - [TEST_CASE][PASSED] - Test Cases/pages/input user name: Test Cases/pages/input user name
+
+2022-05-01 13:53:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/register page/ipt_name"), name, STOP_ON_FAILURE): Keys 'testName' sent to object: 'Object Repository/register page/ipt_name'
+
+2022-05-01 13:53:19 - [MESSAGE][PASSED] - Keys 'testName' sent to object: 'Object Repository/register page/ipt_name'
+
+2022-05-01 13:53:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/input user name' successfully
+
+2022-05-01 13:53:19 - [TEST_STEP][PASSED] - if (isRegister): Call Test Case 'Test Cases/pages/click button register' successfully
+
+2022-05-01 13:53:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/click button register"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/click button register' successfully
+
+2022-05-01 13:53:19 - [TEST_CASE][PASSED] - Test Cases/pages/click button register: Test Cases/pages/click button register
+
+2022-05-01 13:53:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/register page/btn_register"), STOP_ON_FAILURE): Object: 'Object Repository/register page/btn_register' is clicked on
+
+2022-05-01 13:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/register page/btn_register' is clicked on
+
+2022-05-01 13:53:20 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully
+
+2022-05-01 13:53:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-05-01 13:53:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/click button register' successfully
+
+2022-05-01 13:53:20 - [TEST_STEP][PASSED] - if (accountType != ""): null
+
+2022-05-01 13:53:20 - [TEST_STEP][PASSED] - if (isLogin): null
+
+2022-05-01 13:53:20 - [TEST_STEP][PASSED] - if (openTnC): null
+
+2022-05-01 13:53:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:53:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/assertion register page"), ["scenario":scenario], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:53:20 - [TEST_CASE][PASSED] - Test Cases/pages/assertion register page: Test Cases/pages/assertion register page
+
+2022-05-01 13:53:20 - [TEST_STEP][PASSED] - switch (scenario.toLowerCase()): null
+
+2022-05-01 13:53:20 - [TEST_STEP][PASSED] - case "normal flow":: null
+
+2022-05-01 13:53:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/div_counter_otp"), STOP_ON_FAILURE): Object 'Object Repository/otp page/div_counter_otp' is visible
+
+2022-05-01 13:53:21 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/div_counter_otp' is visible
+
+2022-05-01 13:53:21 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("register page/btn_contains_value_dynamic", ["value":"Verifikasi"]), "disabled", 0, STOP_ON_FAILURE): Object 'Object Repository/register page/btn_contains_value_dynamic' has attribute 'disabled'
+
+2022-05-01 13:53:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-01 13:53:21 - [MESSAGE][PASSED] - Object 'Object Repository/register page/btn_contains_value_dynamic' has attribute 'disabled'
+
+2022-05-01 13:53:21 - [TEST_STEP][PASSED] - for ([i = 1, i <= 6, (i++)]): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:22 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:22 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:23 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:23 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:24 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/otp page/ipt_otp_dynamic", ["index":i]), STOP_ON_FAILURE): Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:24 - [MESSAGE][PASSED] - Object 'Object Repository/otp page/ipt_otp_dynamic' is visible
+
+2022-05-01 13:53:24 - [TEST_STEP][PASSED] - break: null
+
+2022-05-01 13:53:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:53:24 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:53:24 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2022-05-01 13:53:24 - [TEST_STEP][PASSED] - navigateToUrl(basicURL, STOP_ON_FAILURE): Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:53:25 - [MESSAGE][PASSED] - Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:53:25 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test cases/positive test cases/TC08-as an existing user i will get pop up option to continue login as existing user" time="10.054" classname="Test Cases/test cases/positive test cases/TC08-as an existing user i will get pop up option to continue login as existing user" status="PASSED">
+         <system-out><![CDATA[2022-05-01 13:53:25 - [TEST_CASE][PASSED] - Test Cases/test cases/positive test cases/TC08-as an existing user i will get pop up option to continue login as existing user: Test Cases/test cases/positive test cases/TC08-as an existing user i will get pop up option to continue login as existing user
+
+2022-05-01 13:53:25 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2022-05-01 13:53:25 - [TEST_STEP][PASSED] - individualRun = false: null
+
+2022-05-01 13:53:25 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2022-05-01 13:53:25 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:53:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/register new user account"), ["email":email, "name":name, "isRegister":isRegister], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:53:25 - [TEST_CASE][PASSED] - Test Cases/pages/register new user account: Test Cases/pages/register new user account
+
+2022-05-01 13:53:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("pages/open browser and go to register page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:53:25 - [TEST_CASE][PASSED] - Test Cases/pages/open browser and go to register page: Test Cases/pages/open browser and go to register page
+
+2022-05-01 13:53:25 - [TEST_STEP][PASSED] - openBrowser(basicURL, STOP_ON_FAILURE): Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:53:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-01 13:53:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-01 13:53:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-01 13:53:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://accounts.kitabisa.com/register'
+
+2022-05-01 13:53:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-01 13:53:29 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-01 13:53:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/open browser and go to register page' successfully
+
+2022-05-01 13:53:29 - [TEST_STEP][PASSED] - if (email != ""): null
+
+2022-05-01 13:53:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/input user email"), ["email":email], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/input user email' successfully
+
+2022-05-01 13:53:29 - [TEST_CASE][PASSED] - Test Cases/pages/input user email: Test Cases/pages/input user email
+
+2022-05-01 13:53:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/register page/ipt_email"), email, STOP_ON_FAILURE): Keys 'test@test.com' sent to object: 'Object Repository/register page/ipt_email'
+
+2022-05-01 13:53:31 - [MESSAGE][PASSED] - Keys 'test@test.com' sent to object: 'Object Repository/register page/ipt_email'
+
+2022-05-01 13:53:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/input user email' successfully
+
+2022-05-01 13:53:31 - [TEST_STEP][PASSED] - if (isEdit): null
+
+2022-05-01 13:53:31 - [TEST_STEP][PASSED] - if (name != ""): Call Test Case 'Test Cases/pages/input user name' successfully
+
+2022-05-01 13:53:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/input user name"), ["name":name], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/input user name' successfully
+
+2022-05-01 13:53:31 - [TEST_CASE][PASSED] - Test Cases/pages/input user name: Test Cases/pages/input user name
+
+2022-05-01 13:53:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/register page/ipt_name"), name, STOP_ON_FAILURE): Keys 'testName' sent to object: 'Object Repository/register page/ipt_name'
+
+2022-05-01 13:53:33 - [MESSAGE][PASSED] - Keys 'testName' sent to object: 'Object Repository/register page/ipt_name'
+
+2022-05-01 13:53:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/input user name' successfully
+
+2022-05-01 13:53:33 - [TEST_STEP][PASSED] - if (isRegister): Call Test Case 'Test Cases/pages/click button register' successfully
+
+2022-05-01 13:53:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/click button register"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/click button register' successfully
+
+2022-05-01 13:53:33 - [TEST_CASE][PASSED] - Test Cases/pages/click button register: Test Cases/pages/click button register
+
+2022-05-01 13:53:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/register page/btn_register"), STOP_ON_FAILURE): Object: 'Object Repository/register page/btn_register' is clicked on
+
+2022-05-01 13:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/register page/btn_register' is clicked on
+
+2022-05-01 13:53:33 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully
+
+2022-05-01 13:53:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-05-01 13:53:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/click button register' successfully
+
+2022-05-01 13:53:33 - [TEST_STEP][PASSED] - if (accountType != ""): null
+
+2022-05-01 13:53:33 - [TEST_STEP][PASSED] - if (isLogin): null
+
+2022-05-01 13:53:33 - [TEST_STEP][PASSED] - if (openTnC): null
+
+2022-05-01 13:53:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/register new user account' successfully
+
+2022-05-01 13:53:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/pages/assertion register page"), ["scenario":scenario], STOP_ON_FAILURE): Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:53:33 - [TEST_CASE][PASSED] - Test Cases/pages/assertion register page: Test Cases/pages/assertion register page
+
+2022-05-01 13:53:33 - [TEST_STEP][PASSED] - switch (scenario.toLowerCase()): null
+
+2022-05-01 13:53:33 - [TEST_STEP][PASSED] - case "verify existing user":: null
+
+2022-05-01 13:53:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/register page/btn_contains_value_dynamic", ["value":"Ya, lanjut"]), STOP_ON_FAILURE): Object 'Object Repository/register page/btn_contains_value_dynamic' is visible
+
+2022-05-01 13:53:34 - [MESSAGE][PASSED] - Object 'Object Repository/register page/btn_contains_value_dynamic' is visible
+
+2022-05-01 13:53:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/register page/btn_contains_value_dynamic", ["value":"Tidak, batal"]), STOP_ON_FAILURE): Object 'Object Repository/register page/btn_contains_value_dynamic' is visible
+
+2022-05-01 13:53:34 - [MESSAGE][PASSED] - Object 'Object Repository/register page/btn_contains_value_dynamic' is visible
+
+2022-05-01 13:53:34 - [TEST_STEP][PASSED] - break: null
+
+2022-05-01 13:53:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/pages/assertion register page' successfully
+
+2022-05-01 13:53:34 - [TEST_STEP][PASSED] - if (individualRun): null
+
+2022-05-01 13:53:34 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2022-05-01 13:53:34 - [TEST_STEP][PASSED] - navigateToUrl(basicURL, STOP_ON_FAILURE): Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:53:35 - [MESSAGE][PASSED] - Navigate to 'https://accounts.kitabisa.com/register' successfully
+
+2022-05-01 13:53:35 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-01 13:52:04 - [TEST_SUITE][PASSED] - user register positive cases: Test Cases/test cases/positive test cases/TC08-as an existing user i will get pop up option to continue login as existing user]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

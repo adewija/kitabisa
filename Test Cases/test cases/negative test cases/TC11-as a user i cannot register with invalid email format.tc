@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11-as a user i cannot register with invalid email format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c33ce557-a94e-4576-9a50-ac43cf786f63</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>20147089-48ff-496e-921e-04396291df15</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'testName'</defaultValue>
+      <description></description>
+      <id>67ef7bd6-66df-4852-9dcf-ef883198dd86</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>242831fc-b3c5-467a-b5f8-d7da18f48ecf</id>
+      <masked>false</masked>
+      <name>isRegister</name>
+   </variable>
+   <variable>
+      <defaultValue>'verify error message'</defaultValue>
+      <description></description>
+      <id>12d16f00-8471-420a-b9c8-fd6dd3310e42</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hanya diisi dengan nomor ponsel atau email yang valid.'</defaultValue>
+      <description></description>
+      <id>bd7652f4-8696-4aa5-ab94-24f33730d8a9</id>
+      <masked>false</masked>
+      <name>errMessage</name>
+   </variable>
+</TestCaseEntity>
